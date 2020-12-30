@@ -1,1 +1,96 @@
 @import "~bootstrap/scss/bootstrap";
+@import 'events';
+@import 'users';
+//@import "~air-datepicker/dist/css/datepicker.min";
+
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+.content {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-bottom: 90px;
+}
+.footer {
+  padding: 20px;
+  height: 85px;
+  margin-top: -85px;
+}
+
+a {
+  color: #666666;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #262626;
+}
+
+.buffer-top {
+  margin-top: 20px;
+}
+
+.buffer-bottom {
+  margin-bottom: 20px;
+}
+
+.buffer-both {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buffer-left {
+  margin-left: 20px;
+}
+
+.img-icon, .img-icon-small {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.thumbnail {
+  position: relative;
+  background: transparent;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.thumbnail h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: .3em;
+}
+
+.thumbnail-inner {
+  padding: 20px 4px 4px;
+}
+
+.form-control:focus {
+  border-color: #2c2c2c;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+  background-color:black;
+}
+
+.custom-checkbox .custom-control-input:focus~.custom-control-label::before{
+  box-shadow: 0 0 0 1px black, 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+.custom-control-input:checked ~ .custom-control-label::before{
+  border-color:black;
+}
+
+.btn-danger {
+  background-color: #730E15;
+  border-color: #730E15 ;
+}
+.btn-danger:hover {
+  background-color: #4b0714;
+  border-color: #4b0714;
+}

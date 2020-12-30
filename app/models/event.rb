@@ -11,5 +11,5 @@ class Event < ApplicationRecord
   # Валидируем юзера на присутствие. В Rails 5 связи
   # валидируются по умолчанию
   validates :user, presence: true
-  
+
 end
