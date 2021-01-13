@@ -28,6 +28,10 @@ module Bbq
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+    # Настраиваем наше приложение на работу с русской локалью. Обратите,
+    # внимание, что в Rails 5 рекомендуется настройки локали сохранять в
+    # config/initializers/locale.rb
+    config.i18n.default_locale = :ru
 
     # Don't generate system test files.
     config.generators.system_tests = nil

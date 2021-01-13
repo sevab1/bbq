@@ -11,6 +11,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'twitter-bootstrap-rails'
 gem 'devise'
 
+gem 'devise-i18n'
+gem 'russian'
+
+
 group :production do
   gem 'pg'
 end
