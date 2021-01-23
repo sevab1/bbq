@@ -11,6 +11,11 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'twitter-bootstrap-rails'
 gem 'devise'
 
+gem 'carrierwave'
+gem 'rmagick'
+
+
+
 gem 'devise-i18n'
 gem 'russian'
 

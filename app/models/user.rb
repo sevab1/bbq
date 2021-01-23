@@ -14,6 +14,9 @@ class User < ApplicationRecord
 
   before_validation :set_name, on: :create
 
+  # Добавляем аплоадер аватарок, чтобы заработал carrierwave
+  mount_uploader :avatar, AvatarUploader
+
   private
 
   def set_name
