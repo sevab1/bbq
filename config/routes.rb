@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     resources :comments, only: [:create, :destroy]
     # вложенный ресурс подписок
     resources :subscriptions, only: [:create, :destroy]
+    # Вложенные в ресурс события ресурсы фотографий
+    resources :photos, only: [:create, :destroy]
   end
 
   # Не все действия поддерживаются – только show, edit, update
